@@ -26,14 +26,8 @@ To get started you first need to get an API_KEY from here:
 
 Inside `app/.env`, update the value of `GROQ_API_KEY` with the API_KEY you created.
 
----
 
 ### ✅ Install the dependencies using:
 
 ```bash
 pip install -r requirements.txt
-
-### ✅ Run the Streamlit app:
-
-```bash
-streamlit run .\app\main.py
