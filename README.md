@@ -20,19 +20,20 @@ This app helps Anami quickly generate such emails, saving time while increasing 
 
 
 ## ⚙️ Set-up
+1. To get started you first need to get an API_KEY from here:  
+   [https://console.groq.com/keys](https://console.groq.com/keys).  
 
-To get started you first need to get an API_KEY from here:  
-[https://console.groq.com/keys](https://console.groq.com/keys).  
-
-Inside `app/.env`, update the value of `GROQ_API_KEY` with the API_KEY you created.
+   Inside `app/.env`, update the value of `GROQ_API_KEY` with the API_KEY you created.
 
 ---
 
-### ✅ Install the dependencies using:
+2. ### ✅ Install the dependencies using:
+   ```bash
+   pip install -r requirements.txt
+   
+---
+## ✅ Run the Streamlit app:
 
 ```bash
-pip install -r requirements.txt
-
----
-
+streamlit run .\app\main.py
 
