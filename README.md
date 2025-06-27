@@ -33,11 +33,7 @@ Inside `app/.env`, update the value of `GROQ_API_KEY` with the API_KEY you creat
 ```bash
 pip install -r requirements.txt
 
----
-
-### ✅ Run the Streamlit app
+### ✅ Run the Streamlit app:
 
 ```bash
 streamlit run .\app\main.py
-
----
